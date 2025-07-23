@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height:100vh;
+    background-color: white;
+    overflow: hidden;
+}
+.top{
+    
+    background-image: url('./images/bg-pattern-intro-mobile.svg');
+    background-position: center;
+    background-color: rgb(245, 105, 105);
+    width: 100%;
+    height: 50vh;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border-radius: 0px 0px 0px 50px;
+  
+}
+nav{
+   
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul img{
+    width: 5px;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+ul{
+    display: flex;
+    gap:20px;
+}
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 10px;
+} 
+ul img{
+        padding-top: 5px;
+        position: relative;
+        right: 15px;
+ }
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    font-family: sans-serif;
+}
+ img{
+    width:30%;
+    height: 30px;
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: rgb(245, 105, 105) ;
+}
+.center{
+   
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    color: white;
+}
+.center h3{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   
+}
+.center p{
+    font-size:11px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-top: 10px;
+}
+.btn1{
+    color: rgb(199, 123, 123) ;
+    font-size: 11px;
+    border: none;
+}
+.btn2{
+    color: white ;
+    font-size: 11px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.bottom{
+     height: 50vh;
+   display: flex;
+   justify-content:space-between;
+   align-items: flex-start;
+   
+}
+.bottom img{
+    width: 300px;
+    height: 270px;
+    position: relative;
+    left: 90px;
+  
+}
+.p1{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+      justify-content: center;
+    margin-left: 100%;
+    color: rgb(81, 81, 122);
+    font-size: 19px;
+    margin-top: 60px;
+    position: relative;
+    left: 150PX;
+}
+.left{
+    
+    width: 36%;
+    height: 50vh;
+    margin-bottom: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding-left: 100px;
+    
+}
+.left1{
+    padding-left: 19px;
+    margin-bottom: 40px;
+   
+}
+.left1 p{
+    padding-top: 5px;
+    font-size: 10px;
+    color: gray;
+}
+.left1 h5{
+    font-size: 15px;
+    
+    color:rgb(81, 81, 122);
+}
+.left2 p{
+    
+     padding-top: 5px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.left2 h5{
+    font-size: 15px;
+    color:rgb(81, 81, 122);
+}
